@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    .blurpage{
+        filter: blur(5px);
+        z-index: -1;
+    }
+    .box2{
+        width: 300px;
+        height: 180px;
+        border: 1px #E74C3C solid;
+        margin-top: 200px;
+        margin-left: 500px;
+        border-radius:5%;
+        position: relative;
+        bottom: 450px;
+        box-shadow: 10px 5px gray;
+        background-color: white;
+     } 
+    button{
+        width: 60px;
+        height: 30px;
+        border-radius: 40%;
+        color:white;
+        background-color: tomato;
+        box-shadow: 5px 5px grey;
+        position: absolute;
+        bottom: 20px;
+        right:120px;
+    }       
+    .in{
+        width: 200px;
+        height: 25px;
+        border:1px #E74C3C solid;
+        position: absolute;
+        bottom: 70px;
+        right:50px;
+    } 
+    .nl{
+        position: absolute;
+        font-size: 20px;
+        left: 100px;
+        top:28px;
+        color:#E74C3C ;
+    }
+    .back{
+        width:30px;
+        position: absolute;
+        left:30px;
+        top:12px;
+    }
+</style>
+<body>
+    <div class="blurpage">
+        <div class="sec1">
+            <u></u>
+            <h1>TRIP TO Vizag</h1>
+            <u></u>
+    </div>
+    <div class="sec2">
+        <a href="index.html"><img src="back.jpg"></a>
+        <span>BACK</span> 
+    </div> 
+    <div class="box1">
+        <div id="text">Trip to Vizag</div> 
+        <div id="strikedtext">Completed Task</div>
+        <div class="cb">
+            <input type="checkbox"> <span id="pt">Pending Task</span> 
+        </div> 
+        <a href="additem.html"><img id="add" src="add.jpg"></a>
+      </div>
+    </div>
+    <div class="box2">
+        <div class="back">
+            <a href="2.html"><img  src="back.jpg" class="back"></a>
+        </div>
+        <span class="nl">Add New Item</span> 
+        <input type="text" class="in">
+        <button>
+            ADD
+        </button>
+    </div>
+</body>
+</html>
